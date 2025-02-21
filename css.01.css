@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color:inherit; 
+}
+
+
+.visual {
+    height: 700px;  
+}
+.visual .visual_swiper{
+    height: 100%;
+}
+.visual .swiper-slide img {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+.visual .swiper-slide .text {
+    width: 1280px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 자동슬라이드 스와이퍼 데모에서 오토 플레이 */
